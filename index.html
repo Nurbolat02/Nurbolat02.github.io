@@ -20,11 +20,6 @@
           <div style="font-size:0.85rem;color:var(--muted)">System Engineering Student — React Developer</div>
         </div>
       </a>
-
-      <nav aria-label="Primary">
-        <a href="#projects">Projects</a>
-        <a href="#about">About</a>
-      </nav>
     </header>
 
     <main>
@@ -41,21 +36,21 @@
             <div class="chip">Node.js</div>
             <div class="chip">Web Design</div>
           </div>
-
-          <div style="display:flex;gap:10px;margin-top:18px">
-            <a class="cta" href="#projects">See projects</a>
-            <a style="background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--muted);padding:8px 10px;border-radius:8px;text-decoration:none;font-weight:700" href="#about">About me</a>
-          </div>
         </div>
       </section>
 
       <section id="projects" aria-labelledby="projects-title">
-        <div class="section-title">
-          <h2 id="projects-title">Selected projects</h2>
-          <p>Recent work — click to view</p>
-        </div>
+  <div class="section-title">
+    <p>My personal and React-based projects</p>
+  </div>
 
-        <div class="projects-grid">
+  <!-- Vanilla JS Projects -->
+  <div class="section-title" style="margin-top:28px;">
+    <h3 style="margin:0;">Vanilla JavaScript Projects</h3>
+    <p>Small web apps and experiments using pure HTML, CSS, and JS</p>
+  </div>
+
+   <div class="projects-grid">
           <article class="project">
             <h3>Marvel API App</h3>
             <p>A React app fetching Marvel character data with custom components and responsive UI.</p>
@@ -88,26 +83,37 @@
             <a href="#" aria-label="Open Task Manager project">View</a>
           </article>
         </div>
-      </section>
 
-      <section id="about" aria-labelledby="about-title">
-        <div class="section-title">
-          <h2 id="about-title">About me</h2>
-          <p>Short intro & skills</p>
+        <!-- React Projects -->
+    <div class="section-title" style="margin-top:40px;">
+        <h3 style="margin:0;">React Applications</h3>
+        <p>Modern projects built with React, hooks, and API integrations</p>
+    </div>
+
+        <div class="projects-grid">
+            <article class="project">
+            <h3>Portfolio Website</h3>
+            <p>My own portfolio built with React and Tailwind CSS.</p>
+            <a href="#" aria-label="View project">View</a>
+            </article>
+
+            <article class="project">
+            <h3>Movie Explorer</h3>
+            <p>React app for browsing movies using TMDB API with search & filters.</p>
+            <a href="#" aria-label="View project">View</a>
+            </article>
+
+            <article class="project">
+            <h3>Chat App</h3>
+            <p>Real-time chat using React, Firebase, and modern UI components.</p>
+            <a href="#" aria-label="View project">View</a>
+            </article>
         </div>
-
-        <div class="about">
-          <div class="about-text">
-            <p><strong>Nurbolat</strong> — a System Engineering student passionate about creating React applications and modern web projects. I enjoy turning ideas into functional, user-friendly interfaces while focusing on clean, maintainable code.</p>
-            <p style="margin-top:10px;color:var(--muted)">Skills: HTML, CSS, JavaScript, React, Node.js, responsive design, testing, and deployment.</p>
-          </div>
-        </div>
-      </section>
-
+        </section>
     </main>
 
     <footer>
-      © <span id="year"></span> Nurbolat — built with ❤️ & HTML/CSS
+      © <span id="year"></span> Nurbolat — built with ❤️ 
     </footer>
   </div>
 
