@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Nurbolat — Portfolio</title>
+<meta name="description" content="Portfolio of Nurbolat — React projects, web development" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <a class="brand" href="#hero">
+      <div>
+        <div class="logo">Nurbolat</div>
+        <div class="brand-role">System Engineering Student — React Developer</div>
+      </div>
+    </a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <label for="nav-toggle" class="nav-toggle-label" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </label>
+    <nav>
+      <a href="#hero">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="hero-inner">
+        <h1>Hi — I'm Nurbolat</h1>
+        <span class="role">React Developer</span>
+        <p class="lead">I study System Engineering and create React applications and modern websites. I focus on clean code, performance, and user-friendly design.</p>
+        <div class="skills" aria-hidden="true">
+          <div class="chip">HTML</div>
+          <div class="chip">CSS</div>
+          <div class="chip">JavaScript</div>
+          <div class="chip">React</div>
+          <div class="chip">Redux</div>
+        </div>
+        <div class="hero-cta">
+          <a href="#projects" class="btn">View Projects</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section-soft">
+      <div class="wrap">
+        <span class="eyebrow">About</span>
+        <h2 class="section-title">Who I am</h2>
+        <p class="about-copy">I study System Engineering and create React applications and modern websites. I focus on clean code, performance, and user-friendly design — from small vanilla JS experiments to full React applications with state management and API integrations.</p>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="wrap">
+        <span class="eyebrow">Projects</span>
+        <h2 class="section-title">My personal projects</h2>
+
+        <div class="group-title">
+          <h3>Vanilla JavaScript Projects</h3>
+          <p>Small web apps and experiments using pure HTML, CSS, and JS</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project">
+            <h3>Food</h3>
+            <p>
+              Vanilla JavaScript Web App — interactive UI with tabs, modals, countdown timer, dynamic cards, calculator, form handling, and a slider/carousel. Modular structure, fully built with HTML, CSS, and JS.
+            </p>
+            <div class="project-tech">
+              <span class="chip">HTML</span>
+              <span class="chip">CSS</span>
+              <span class="chip">JavaScript</span>
+            </div>
+            <a href="https://nurbolat02.github.io/projects/Food/" class="btn-outline" aria-label="Open project">View</a>
+          </article>
+
+          <article class="project">
+            <h3>Photo</h3>
+            <p>
+              Static HTML & CSS Website — fully responsive layout built with HTML and CSS, featuring promo sections, grids for works and inspiration, services, and customer showcases. Focused on clean and flexible responsive design for different screen sizes.
+            </p>
+            <div class="project-tech">
+              <span class="chip">HTML</span>
+              <span class="chip">CSS</span>
+            </div>
+            <a href="https://nurbolat02.github.io/projects/Photo/src" class="btn-outline" aria-label="Open project">View</a>
+          </article>
+
+          <article class="project">
+            <h3>Picture</h3>
+            <p>
+              Interactive Web Application (HTML, CSS, JS, PHP) — modular JS app with modals, sliders, form validation and masking, dynamic style loader, calculator, filter, image hover effects, accordion, responsive burger menu, smooth scrolling, and drag-and-drop file upload. Includes PHP backend for handling uploads. Fully interactive UI.
+            </p>
+            <div class="project-tech">
+              <span class="chip">HTML</span>
+              <span class="chip">CSS</span>
+              <span class="chip">JavaScript</span>
+              <span class="chip">PHP</span>
+            </div>
+            <a href="https://nurbolat02.github.io/projects/Picture/" class="btn-outline" aria-label="Open project">View</a>
+          </article>
+
+          <article class="project">
+            <h3>Pulse</h3>
+            <p>
+              Interactive jQuery Web App (HTML, CSS/Sass, JS) — dynamic UI built with jQuery and plugins. Features include: carousel/slider with Slick, tabbed catalog, toggleable item content, modals with form validation and phone masking, AJAX form submissions, smooth scrolling and "back to top" button, animations with WOW.js. Styled with Sass for responsive design.
+            </p>
+            <div class="project-tech">
+              <span class="chip">HTML</span>
+              <span class="chip">CSS/Sass</span>
+              <span class="chip">JavaScript</span>
+              <span class="chip">jQuery</span>
+            </div>
+            <a href="https://nurbolat02.github.io/projects/Pulse/" class="btn-outline" aria-label="Open Picture project">View</a>
+          </article>
+        </div>
+
+        <div class="group-title">
+          <h3>React Applications</h3>
+          <p>Modern projects built with React, hooks, and API integrations</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project">
+            <h3>Marvel API</h3>
+            <p>
+              Marvel API React App — interactive React application allowing users to browse Marvel characters, view detailed info about each hero and associated comics, and navigate to individual comic and character pages.<br><br>
+              Technologies &amp; Libraries:<br><br>
+              React (components, hooks)<br>
+              React Router DOM — navigation between pages<br>
+              Formik + Yup — form handling and validation<br>
+              Sass — styling<br>
+            </p>
+            <div class="project-tech">
+              <span class="chip">React</span>
+              <span class="chip">React Router DOM</span>
+              <span class="chip">Formik</span>
+              <span class="chip">Yup</span>
+              <span class="chip">Sass</span>
+              <span class="chip">JavaScript</span>
+              <span class="chip">HTML</span>
+              <span class="chip">CSS</span>
+            </div>
+            <div class="project-links">
+              <a href="https://nurbolat02.github.io/MarvelAPI/" target="_blank" class="btn">Live Demo</a>
+              <a href="https://github.com/Nurbolat02/MarvelAPI/tree/main" target="_blank" class="btn-outline">Source Code</a>
+            </div>
+          </article>
+
+          <article class="project">
+            <h3>Hero Redux</h3>
+            <p>
+              Hero Redux — React application for creating your own heroes and filtering them by attributes such as strength, element type (water, fire, earth, etc.), and other characteristics.<br><br>
+              Technologies &amp; Libraries:<br><br>
+              React (components, hooks)<br>
+              Redux + Redux Toolkit — state management<br>
+              React-Redux — connecting React and Redux<br>
+              Redux Thunk — asynchronous actions<br>
+              Reselect — memoized selectors<br>
+              React Transition Group — animations<br>
+              Sass — styling<br>
+              Bootstrap — UI framework<br>
+              UUID — unique ID generation<br>
+              JSON Server — mock backend<br>
+              JavaScript — dynamic functionality<br>
+              HTML — markup<br>
+              CSS — styling<br>
+            </p>
+            <div class="project-tech">
+              <span class="chip">HTML</span>
+              <span class="chip">CSS</span>
+              <span class="chip">JavaScript</span>
+              <span class="chip">React</span>
+              <span class="chip">Redux</span>
+              <span class="chip">Redux Toolkit</span>
+              <span class="chip">React-Redux</span>
+              <span class="chip">Redux Thunk</span>
+              <span class="chip">Reselect</span>
+              <span class="chip">React Transition Group</span>
+              <span class="chip">Sass</span>
+              <span class="chip">Bootstrap</span>
+              <span class="chip">UUID</span>
+              <span class="chip">JSON Server</span>
+            </div>
+            <div class="project-links">
+              <a href="https://nurbolat02.github.io/HeroRedux/" target="_blank" class="btn">Live Demo</a>
+              <a href="https://github.com/Nurbolat02/HeroRedux/tree/main" target="_blank" class="btn-outline">Source Code</a>
+            </div>
+          </article>
+
+          <article class="project">
+            <h3>Quiz Builder App</h3>
+            <p>
+              Quiz Builder App — an interactive React application that allows users to create, edit, and take quizzes.
+              Users can build new quizzes, add and modify questions, take tests, and view their results.
+              A built-in timer runs during each quiz to track how long it takes to complete.<br><br>
+              Technologies &amp; Libraries:<br><br>
+              React (components, hooks)<br>
+              React Router DOM — navigation between pages<br>
+              Formik + Yup — form creation and validation<br>
+              Sass — styling<br>
+              Context API / Redux — state management<br>
+            </p>
+            <div class="project-tech">
+              <span class="chip">React</span>
+              <span class="chip">React Router DOM</span>
+              <span class="chip">Formik</span>
+              <span class="chip">Yup</span>
+              <span class="chip">Sass</span>
+              <span class="chip">JavaScript</span>
+              <span class="chip">HTML</span>
+              <span class="chip">CSS</span>
+              <span class="chip">Context API</span>
+            </div>
+            <div class="project-links">
+              <a href="https://quiz-one-umber.vercel.app/" target="_blank" class="btn">Live Demo</a>
+              <a href="https://github.com/Nurbolat02/Quiz" target="_blank" class="btn-outline">Source Code</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact" class="section-soft">
+      <div class="wrap">
+        <div class="footer-links">
+          <a href="https://github.com/Nurbolat02" class="btn-outline" target="_blank">GitHub</a>
+        </div>
+        <p>© <span id="year"></span> Nurbolat — built with ❤️</p>
+      </div>
+    </footer>
+  </main>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
