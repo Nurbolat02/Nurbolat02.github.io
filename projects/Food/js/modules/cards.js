@@ -37,7 +37,7 @@ function cards() {
         }
     }
 
-    getResource('https://my-json-server.typicode.com/Nurbolat02/Food/menu')
+    getResource('https://my-json-server.typicode.com/Nurbolat02/json/menu')
         .then(data => {
             console.log(data)
             data.forEach(({ img, altimg, title, descr, price }) => {

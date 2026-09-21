@@ -29,7 +29,7 @@ function forms(formsSelector, modalTimerId) {
 
             const json = JSON.stringify(Object.fromEntries(formData.entries()));
 
-            postData('https://my-json-server.typicode.com/Nurbolat02/Food/requests', json)
+            postData('https://my-json-server.typicode.com/Nurbolat02/json/requests', json)
                 .then(data => {
                     console.log(data);
                     showThanksModal(message.success);
